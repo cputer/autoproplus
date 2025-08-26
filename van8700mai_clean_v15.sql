@@ -1,7 +1,4 @@
-INSERT INTO `wp_actionscheduler_actions`
-  (`action_id`,`hook`,`status`,`scheduled_date_gmt`,`scheduled_date_local`,
-   `priority`,`args`,`schedule`,`group_id`,`attempts`,
-   `last_attempt_gmt`,`last_attempt_local`,`claim_id`,`extended_args`)
+INSERT INTO `wp_actionscheduler_actions` (`action_id`,`hook`,`status`,`scheduled_date_gmt`,`scheduled_date_local`,`priority`,`args`,`schedule`,`group_id`,`attempts`,`last_attempt_gmt`,`last_attempt_local`,`claim_id`,`extended_args`)
 VALUES
   (28,'woocommerce_geoip_updater','pending','2025-09-10 09:29:20',
    '2025-09-10 09:29:20',10,'[]',
